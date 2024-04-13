@@ -3,3 +3,25 @@
     height: 300px;
 
 }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#nombre{
+    background-color: black;
+    color: white; /* Para asegurarte de que el texto sea legible */
+    height: 100vh; /* Que ocupe toda la altura de la ventana */
+    width: 100%; /* Que ocupe toda la anchura de la ventana */
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#nombre h1, #nombre h3, #nombre p {
+    text-align: center; /* Centra horizontalmente el texto */
+    
+}
+#nombre h1 {
+    font-size: 130px;
+}
