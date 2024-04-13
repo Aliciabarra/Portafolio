@@ -1,5 +1,5 @@
 #mi-imagen{
-    width: 500pxpx;
+    width: 180px;
     height: 300px;
 
 }
@@ -24,4 +24,9 @@ body {
 }
 #nombre h1 {
     font-size: 130px;
+}
+a.btn{
+    background-color: blueviolet;
+    max-width: 200px; /* Establece el ancho máximo del botón */
+    width: auto; 
 }
