@@ -1,32 +1,32 @@
-#mi-imagen{
-    width: 180px;
-    height: 300px;
-
+#mi-imagen {
+    width: 20%;
+    height: auto;
 }
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    cursor: url('/Archivos/mouse.png'), default; /* Cursor personalizado con respaldo predeterminado */
 }
-#nombre{
+
+
+#nombre {
     background-color: black;
-    color: white; /* Para asegurarte de que el texto sea legible */
-    height: 100vh; /* Que ocupe toda la altura de la ventana */
-    width: 100%; /* Que ocupe toda la anchura de la ventana */
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
-}
-#nombre h1, #nombre h3, #nombre p {
-    text-align: center; /* Centra horizontalmente el texto */
-    
+    color: white;
+    text-align: center;
+    padding: 10%;
+    height: 100vh;
+    padding-top: 6rem;
 }
 #nombre h1 {
-    font-size: 130px;
+    font-size: 6rem;
 }
-a.btn{
+.linkedin-img,
+.git-img {
+    
+    width: 6%;
+    height: auto;
+}
+a.btn {
     background-color: blueviolet;
-    max-width: 200px; /* Establece el ancho máximo del botón */
-    width: auto; 
+    max-width: 100%;
+    width: 20%; 
+    margin-top: 4%;
 }
